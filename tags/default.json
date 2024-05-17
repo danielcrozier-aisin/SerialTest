@@ -1,0 +1,142 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "_Python TCP_IP Server_",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "65432",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Python TCP/IP Server]65432/Writable",
+              "dataType": "String",
+              "name": "Writable",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Python TCP/IP Server]65432/Message",
+              "dataType": "String",
+              "name": "Message",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Python TCP/IP Server]65432/WritableBytes",
+              "dataType": "Int2Array",
+              "name": "WritableBytes",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Python TCP/IP Server]65432/MessageBytes",
+              "dataType": "Int2Array",
+              "name": "MessageBytes",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Python TCP/IP Server]65432/Last Receive Time",
+              "dataType": "DateTime",
+              "name": "Last Receive Time",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "_Diagnostics_",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Python TCP/IP Server][Diagnostics]/Is Connected",
+              "dataType": "Boolean",
+              "name": "Is Connected",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_Keyence SR-G100_",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "5000",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Keyence SR-G100]4000/Message",
+              "dataType": "String",
+              "name": "Message",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Keyence SR-G100]4000/WritableBytes",
+              "dataType": "Int2Array",
+              "name": "WritableBytes",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Keyence SR-G100]4000/MessageBytes",
+              "dataType": "Int2Array",
+              "name": "MessageBytes",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Keyence SR-G100]4000/Writable",
+              "dataType": "String",
+              "name": "Writable",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Keyence SR-G100]4000/Last Receive Time",
+              "dataType": "DateTime",
+              "name": "Last Receive Time",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "_Diagnostics_",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[Keyence SR-G100][Diagnostics]/Is Connected",
+              "dataType": "Boolean",
+              "name": "Is Connected",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    }
+  ]
+}
