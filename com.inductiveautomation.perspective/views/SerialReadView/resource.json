@@ -1,0 +1,17 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "view.json",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "danielcrozier",
+      "timestamp": "2024-05-17T10:12:46Z"
+    },
+    "lastModificationSignature": "ed88c2dad6b81725a0c41a588e64a1bcae17b1584d393a2b51ed001cfea18b61"
+  }
+}

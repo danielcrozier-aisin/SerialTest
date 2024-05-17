@@ -1,0 +1,147 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "width": 116
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 0,
+              "name": "sm",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 12
+            },
+            {
+              "colIndex": 5,
+              "name": "md",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 1
+            },
+            {
+              "colIndex": 5,
+              "name": "lg",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 1
+            }
+          ],
+          "height": 60
+        },
+        "props": {
+          "style": {
+            "textAlign": "center"
+          },
+          "text": "NAV"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\tsystem.perspective.navigate(\n\t\t\"/\"\n\t)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 0,
+              "name": "sm",
+              "order": 0,
+              "rowIndex": 1,
+              "span": 12
+            },
+            {
+              "colIndex": 7,
+              "name": "md",
+              "order": 1,
+              "rowIndex": 1,
+              "span": 1
+            },
+            {
+              "colIndex": 7,
+              "name": "lg",
+              "order": 1,
+              "rowIndex": 1,
+              "span": 1
+            }
+          ],
+          "height": 60
+        },
+        "props": {
+          "text": "Serial"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "component": {
+            "onActionPerformed": {
+              "config": {
+                "script": "\tsystem.perspective.navigate(\"/tcp-ip\")"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 0,
+              "name": "sm",
+              "order": 1,
+              "rowIndex": 2,
+              "span": 12
+            },
+            {
+              "colIndex": 4,
+              "name": "md",
+              "order": 1,
+              "rowIndex": 2,
+              "span": 1
+            },
+            {
+              "colIndex": 4,
+              "name": "lg",
+              "order": 1,
+              "rowIndex": 2,
+              "span": 1
+            }
+          ],
+          "height": 60
+        },
+        "props": {
+          "text": "TCP/IP"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.column"
+  }
+}

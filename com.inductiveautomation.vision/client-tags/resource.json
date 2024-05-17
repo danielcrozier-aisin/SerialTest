@@ -1,0 +1,16 @@
+{
+  "scope": "C",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "data.bin"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "danielcrozier",
+      "timestamp": "2024-05-09T17:21:14Z"
+    },
+    "lastModificationSignature": "b535994508433d8862850199fb1b77f88521c73b42c2464e8be77a06afe13905"
+  }
+}

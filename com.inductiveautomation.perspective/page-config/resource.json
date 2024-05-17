@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "danielcrozier",
+      "timestamp": "2024-05-17T10:20:54Z"
+    },
+    "lastModificationSignature": "0f468a8087b42c2d013489aecc2ccb7efb56ab8d80b1848b13649850188fb836"
+  }
+}

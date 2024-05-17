@@ -1,0 +1,16 @@
+{
+  "scope": "G",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "props.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "danielcrozier",
+      "timestamp": "2024-05-09T19:35:30Z"
+    },
+    "lastModificationSignature": "45cdea4741451cfa4736e8bed912196854a0af7387b200b23c0db5c72dd356f7"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "/": {
+      "title": "Serial Test",
+      "viewPath": "SerialReadView"
+    },
+    "/tcp-ip": {
+      "title": "TCP/IP Test",
+      "viewPath": "TcpIpView"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom",
+    "left": [
+      {
+        "anchor": "fixed",
+        "autoBreakpoint": 480,
+        "content": "push",
+        "handle": "hide",
+        "iconUrl": "",
+        "id": "",
+        "modal": false,
+        "resizable": false,
+        "show": "visible",
+        "size": 150,
+        "viewParams": {},
+        "viewPath": "Nav"
+      }
+    ]
+  }
+}
